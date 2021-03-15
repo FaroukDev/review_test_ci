@@ -3,6 +3,6 @@ on:
   - push
 jobs:
   MyFirstJob:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - echo "hello world"
