@@ -5,4 +5,4 @@ jobs:
   MyFirstJob:
     runs-on: ubuntu-latest
     steps:
-      - echo "hello world"
+    - echo "hello world"
