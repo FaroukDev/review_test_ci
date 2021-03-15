@@ -1,7 +1,7 @@
 name: Workflow test Hello world
 on:
   - push
-  jobs:
+jobs:
   MyFirstJob:
     runs-on: ubuntu-lastest
     steps:
