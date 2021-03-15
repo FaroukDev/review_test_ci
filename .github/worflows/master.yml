@@ -1,6 +1,5 @@
 name: Workflow test Hello world
-on:
-  - push
+on: [pull-request]
 jobs:
   MyFirstJob:
     runs-on: ubuntu-lastest
