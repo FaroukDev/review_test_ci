@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-
 def number_of_word(x):
- return len(x.split())
-
-print(number_of_word("Hello les devclouds")
-
+    return len(x.split())
+print(number_of_word("Hello les devclouds"))
